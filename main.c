@@ -25,6 +25,6 @@ int main()
     uint8_t hexadecimal = 0x28;
     uint8_t bcd = Hex_To_BCD(hexadecimal);
 
-    printf("BCD = %x\n",bcd);
+    printf("BCD in hex form = 0x%x\n",bcd);
     return 0;
 }
