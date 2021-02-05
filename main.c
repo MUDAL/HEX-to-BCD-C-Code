@@ -14,7 +14,7 @@ static uint8_t Hex_To_BCD(uint8_t hex)
 	while (bcd >= 10)
 	{
 	    bcd -= 10;
-		multipleOfTen++;
+	    multipleOfTen++;
 	}
 	bcd = (multipleOfTen<<4) | bcd;
 	return bcd;
